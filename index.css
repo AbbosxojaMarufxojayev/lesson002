@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.title{
+    color: blue;
+    text-align: center;
+    margin: 40px 0px;
+    font-family: cursive;
+}
+.btn{
+    /* ikkita qiymat berish */
+    color: white;
+    background-color: dodgerblue;
+    /* 1. top & bottom --- 2. left & right */
+    padding: 10px 30px;
+    border-radius: 5px 20px;
+    display: block;
+    margin: 50px auto;
+}
+.btn2{
+    /* to'rtta qiymat berish */
+    /* to'rtta qiymat berish soat strelkasi bo'yicha ishlaydi */
+    padding: 50px 20px 30px 50px;
+    background-color: dodgerblue;
+    color: white;
+    /* ikkalasi ham bir xil holatda ishlaydi */
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+
+    border-radius: 20px 20px 0px 0px;
+}
+.with_border_box{
+    width: 250px;
+    height: 200px;
+    background-color: pink;
+    border: 10px solid red;
+    padding: 30px;
+    /* border-box da padding va border, width va height ni ichidan ochadi */
+    box-sizing: border-box;
+}
+.without_border_box{
+    width: 250px;
+    height: 200px;
+    background-color: dodgerblue;
+    border: 10px solid blue;
+    padding: 30px;
+    /* default holatda content-box bo'ladi */
+    box-sizing: content-box;
+}

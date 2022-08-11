@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    background-color: rgba(128, 0, 128, 0.616);
+    width: 100%;
+    height: 100vh;
+    padding-top: 140px;
+}
+.body{
+    width: 200px;
+    height: 270px;
+    background-color: #FFF1C1;
+    margin: auto;
+    border-radius: 70px 70px 30px 30px;
+    padding-top: 300px;
+}
+.form{
+    width: 60px;
+    height: 100px;
+    background-color: #FE5F55;
+    margin-left: 68px;
+    border-radius: 0px 0px 20px 20px;
+}
